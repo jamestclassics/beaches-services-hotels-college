@@ -1,0 +1,41 @@
+<style>
+    html, body, #map {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #ffffff;
+    }
+    .ol-control > * {
+        background-color: #f8f8f8!important;
+        color: #444!important;
+        border-radius: 0;
+    }
+    .ol-control > *:focus, .ol-control >*:hover {
+        background-color: rgba(248, 248, 248, 0.7)!important;
+    } 
+    .ol-control {
+        background-color: rgba(255,255,255,.4)!important;
+        padding: 2px!important;
+    }
+    /* Style for the Back to Home button centered at the top */
+    a.back-to-home {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px; /* Smaller padding */
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px; /* Smaller font size */
+    max-width: 150px; /* Optional max width to control button length */
+    text-align: center;
+    z-index: 1000; /* Ensures it stays on top of the map */
+}
+
+.back-to-home:hover {
+    background-color: #0056b3;
+}
+
+</style>

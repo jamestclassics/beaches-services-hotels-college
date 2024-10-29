@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My QGIS Web Maps</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Global styles for index.html -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            margin: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My QGIS Web Maps</h1>
+        <nav>
+            <ul>
+                <li><a href="webmap1/map1.html">Beaches in Mayo</a></li>
+                <li><a href="webmap2/map2.html">Service Stations in England</a></li>
+                <li><a href="webmap3/map3.html">Irish Towns</a></li>
+                <li><a href="webmap4/map4.html">Colleges in Dublin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+    <h4>Beaches in Mayo & Service Stations in England</h4>
+    <iframe src="webmap1/map1.html" width="600" height="500" style="border:0;"></iframe>
+    <iframe src="webmap2/map2.html" width="600" height="500" style="border:0;"></iframe>
+</div>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 My QGIS Web Maps</p>
+    </footer>
+</body>
+</html>
